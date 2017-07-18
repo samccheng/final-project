@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Map Api</title>
+	<title></title>
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+	
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<h1>this is a change</h1>
+
+	<!-- <div class='sidebar pad2'>Listing</div> -->
+	<div class='sidebar'>
+  	<div class='heading'>
+  	<div id="search">
+		<form>
+			<input type="text" name="search" size="30" placeholder="enter address">
+			<button>search</button>
+		</form>
+	</div>
+	<!-- <div>
+		<h1>location</h1>
+	</div> -->
+
+    
+
+  	</div>
+  	<div id='listings' class='listings'></div>
+	</div>
+	
+	<div id='map' class='map pad2'>Map</div>
+
+
+
+
+
+	
+
+	
+	<script type="text/javascript" src="map.js"></script>
+	
 
 </body>
 </html>
